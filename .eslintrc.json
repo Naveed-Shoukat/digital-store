@@ -1,5 +1,4 @@
 {
   "env": { "browser": true, "node":true, "es6":true },
-  "extends": ["eslient:recommended","next", "next/core-web-vitals"],
-  "editor.codeActionsOnSave": { "source.fixAll": true }
+  "extends": ["eslient:recommended","next", "next/core-web-vitals"]
 }
