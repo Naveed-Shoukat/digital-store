@@ -1,3 +1,18 @@
 {
-  "eslint.workingDirectories": ["./pages", "./models", "./public", "./styles", "./utils"]
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[typescript]": {
+    "editor.formatOnSave": false
+  },
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "editor.codeActionsOnSaveTimeout": 4000
 }
