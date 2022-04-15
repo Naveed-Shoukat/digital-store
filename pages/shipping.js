@@ -33,9 +33,9 @@ export default function Shipping() {
   }, []);
   
   const classes = useStyles();
-  const submitHandler = (addressDetails = {fullName, address, city, postalCode, country, phoneNumber}) => {
-    dispatch({type:'SAVE_SHIPPING_ADDRESS', payload: addressDetails});
-    jsCookie.set('shippingAddress', addressDetails);
+  const submitHandler = ({fullName, address, city, postalCode, country, phoneNumber}) => {
+    dispatch({type:'SAVE_SHIPPING_ADDRESS', payload: {fullName, address, city, postalCode, country, phoneNumber}});
+    jsCookie.set('shippingAddress', {fullName, address, city, postalCode, country, phoneNumber});
     router.push('/payment')
   };
   return (
