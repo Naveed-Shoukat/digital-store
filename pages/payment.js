@@ -6,8 +6,8 @@ import useStyles from '../utils/styles';
 import { Button, FormControl, FormControlLabel, List, ListItem, Radio, RadioGroup, 
 Typography,} from '@material-ui/core';
 import { useSnackbar } from 'notistack';
-import Layout from './components/Layout';
-import CheckoutWizard from './components/CheckoutWizard';
+import Layout from '../components/Layout';
+import CheckoutWizard from '../components/CheckoutWizard';
 
 export default function Payment() {
   const { enqueueSnackbar, closeSnackbar } = useSnackbar();

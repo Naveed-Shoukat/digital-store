@@ -1,13 +1,13 @@
 import {Button, Link, List, ListItem, TextField, Typography } from '@material-ui/core'
 import React, { useContext, useEffect } from 'react'
 import useStyles from '../utils/styles'
-import Layout from './components/Layout'
+import Layout from '../components/Layout'
 import NextLink from 'next/link'
 import { Store } from '../utils/Store'
 import { useRouter } from 'next/router'
 import jsCookie from 'js-cookie'
 import {Controller, useForm} from 'react-hook-form'
-import CheckoutWizard from './components/CheckoutWizard'
+import CheckoutWizard from '../components/CheckoutWizard'
 export default function Shipping() {
   const {
     handleSubmit, 

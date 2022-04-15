@@ -1,14 +1,14 @@
 import React, { Children, useContext, useState } from 'react';
 import Head from 'next/head';
 import { AppBar, Badge, Button, Container, createTheme, CssBaseline, Link, Menu, MenuItem, Switch, ThemeProvider, Toolbar, Typography, Box, IconButton, Drawer, List, ListItem, Divider, ListItemText,  InputBase, } from '@material-ui/core';
-import useStyles from '../../utils/styles';
+import useStyles from '../utils/styles';
 import NextLink from 'next/link';
-import { Store } from '../../utils/Store';
+import { Store } from '../utils/Store';
 import jsCookie from 'js-cookie';
 import { useRouter } from 'next/router';
 import MenuIcon from '@mui/icons-material/Menu';
 import CancelIcon from '@mui/icons-material/Cancel';
-import { getError} from '../../utils/error'
+import { getError} from '../utils/error'
 import { useSnackbar } from 'notistack';
 import axios from 'axios';
 import { useEffect } from 'react';

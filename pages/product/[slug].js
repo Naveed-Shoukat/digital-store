@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import Product from '../../models/Product';
 import db from '../../utils/db';
-import Layout from '../components/Layout';
+import Layout from '../../components/Layout';
 import NextLink from 'next/link';
 import Image from 'next/image'
 import { Button, Card, Grid, Link, List, ListItem, Typography, TextField, 

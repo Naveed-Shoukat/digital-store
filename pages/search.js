@@ -2,11 +2,11 @@ import { Box, Button, Grid, List, ListItem, MenuItem, Select, Typography,} from 
 import CancelIcon from '@mui/icons-material/Cancel';
 import { useRouter } from 'next/router';
 import React, { useContext } from 'react';
-import Layout from './components/Layout';
+import Layout from '../components/Layout';
 import db from '../utils/db';
 import Product from '../models/Product';
 import useStyles from '../utils/styles';
-import ProductItem from './components/ProductItem';
+import ProductItem from '../components/ProductItem';
 import { Store } from '../utils/Store';
 import axios from 'axios';
 import Rating from '@mui/lab/Rating';

@@ -6,7 +6,7 @@ import React, { useEffect, useContext, useReducer } from 'react';
 import { CircularProgress, Grid, List, ListItem, TableContainer, Typography, Card, Table, TableHead, TableRow,TableCell, TableBody, Button, ListItemText,} from '@material-ui/core';
 import { getError } from '../utils/error';
 import { Store } from '../utils/Store';
-import Layout from './components/Layout';
+import Layout from '../components/Layout';
 import useStyles from '../utils/styles';
 
 function reducer(state, action) {

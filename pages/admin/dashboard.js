@@ -9,7 +9,7 @@ import { Bar } from 'react-chartjs-2';
 import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, } from 'chart.js';
 import { getError } from '../../utils/error';
 import { Store } from '../../utils/Store';
-import Layout from '../components/Layout';
+import Layout from '../../components/Layout';
 import useStyles from '../../utils/styles';
 ChartJS.register( CategoryScale, LinearScale, BarElement, );
 
