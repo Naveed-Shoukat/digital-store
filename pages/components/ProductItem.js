@@ -14,6 +14,7 @@ import Rating from '@mui/lab/Rating';
 export default function ProductItem({ product, addToCartHandler }) {
   return (
     <Card>
+    try{
       <NextLink href={`/product/${product.slug}`} passHref>
         <CardActionArea>
           <CardMedia
@@ -27,6 +28,9 @@ export default function ProductItem({ product, addToCartHandler }) {
           </CardContent>
         </CardActionArea>
       </NextLink>
+    }
+      
+        
       <CardActions>
         <Typography>${product.price}</Typography>
         <Button
