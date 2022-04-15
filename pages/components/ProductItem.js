@@ -9,7 +9,7 @@ import {
 } from '@material-ui/core';
 import React from 'react';
 import NextLink from 'next/link';
-import Rating from '@material-ui/lab/Rating';
+import Rating from '@mui/lab/Rating';
 
 export default function ProductItem({ product, addToCartHandler }) {
   return (
