@@ -5,7 +5,7 @@ import { Grid, Link, List, ListItem, Typography, Card, Button, TextField,
   CircularProgress,} from '@material-ui/core';
 import Rating from '@mui/lab/Rating';
 import Layout from '../components/Layout';
-import useStyles from '../../styles/useStyles';
+import useStyles from '../../utils/styles';
 import Product from '../../models/Product';
 import db from '../../utils/db';
 import axios from 'axios';
