@@ -1,7 +1,5 @@
-module.exports = {
-  reactStrictMode: true,
-  images: { domains: ['res.cloudinary.com'] },
-}
+export const reactStrictMode = true;
+export const images = { domains: ['res.cloudinary.com'] };
 
 
 
