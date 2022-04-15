@@ -1,2 +1,3 @@
 {
+  "eslint.workingDirectories": ["./pages", "./models", "./public", "./styles", "./utils"]
 }
