@@ -1,0 +1,5 @@
+cloudinary.config({ 
+  cloud_name: 'digital-store-ist', 
+  api_key: '251213255241892', 
+  api_secret: 'IAGYSmq3RzLBFKDgDHLqmckDRQk' 
+});
