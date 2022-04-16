@@ -12,9 +12,6 @@ import ProductItem from '../components/ProductItem'
 // import Carousel from 'react-material-ui-carousel';
 import useStyles from '../utils/styles';
 
-import 'dotenv/config'
-console.log(process.env)
-
 export default function Home(props) {
   const classes = useStyles();
   const router = useRouter();
