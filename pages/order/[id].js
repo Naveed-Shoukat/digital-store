@@ -10,8 +10,9 @@ import axios from 'axios';
 import { useRouter } from 'next/router';
 import useStyles from '../../utils/styles';
 import { useSnackbar } from 'notistack';
-import { getError, onError } from '../../utils/error';
-import jsCookie from 'js-cookie';
+import { getError } from '../../utils/error';
+// import { getError, onError } from '../../utils/error';
+// import jsCookie from 'js-cookie';
 import { PayPalButtons, usePayPalScriptReducer } from '@paypal/react-paypal-js';
 
 function reducer(state, action) {
