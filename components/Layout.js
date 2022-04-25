@@ -249,7 +249,8 @@ export default function Layout({title, description, children}) {
             {children}
           </Container>
           <footer className={classes.footor}>
-            <Typography>Page footer contents comes here...</Typography>
+            <Typography>Copywrite: Digital Store&copy;2022 </Typography>
+            <Typography>Created by Nav's </Typography>
             
           </footer>
         </ThemeProvider>

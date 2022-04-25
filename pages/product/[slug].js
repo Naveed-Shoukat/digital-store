@@ -7,7 +7,7 @@ import Image from 'next/image'
 import { Button, Card, Grid, Link, List, ListItem, Typography, TextField, 
   CircularProgress, } from '@material-ui/core';
 import useStyles from '../../utils/styles';
-import Rating from '@mui/lab/Rating';
+import Rating from '@mui/material/Rating';
 import { getError } from '../../utils/error';
 import { useSnackbar } from 'notistack';
 import axios from 'axios';

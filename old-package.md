@@ -32,9 +32,9 @@
     "next": "12.1.4",
     "next-connect": "^0.12.2",
     "notistack": "^2.0.4",
-    "react": "17.0.0",
+    "react": "18.0.0",
     "react-chartjs-2": "^4.1.0",
-    "react-dom": "17.0.0",
+    "react-dom": "18.0.0",
     "react-hook-form": "^7.29.0",
     "react-material-ui-carousel": "^3.3.3",
     "streamifier": "^0.1.1"

@@ -9,7 +9,7 @@ import useStyles from '../utils/styles';
 import ProductItem from '../components/ProductItem';
 import { Store } from '../utils/Store';
 import axios from 'axios';
-import Rating from '@mui/lab/Rating';
+import Rating from '@mui/material/Rating';
 import { Pagination } from '@mui/lab';
 
 const PAGE_SIZE = 3;
