@@ -45,3 +45,7 @@
     "eslint-config-next": "12.1.4"
   }
 }
+
+
+
+MONGODB_URI=mongodb://localhost:27017/digital-store
