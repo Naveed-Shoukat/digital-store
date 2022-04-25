@@ -1,11 +1,5 @@
 import mongoose from 'mongoose';
 
-
-// import { MongoClient } from 'mongodb';
-
-const MONGODB_URI = (process.env.MONGODB_URI);
-// const MONGODB_DB = "digital-store"
-
 const connection = {};
 
 async function connect() {
@@ -21,8 +15,7 @@ async function connect() {
     }
     await mongoose.disconnect();
   }
-  // const db = await mongoose.connect(process.env.MONGODB_URI, {
-  const db = await mongoose.connect(MONGODB_URI, {
+  const db = await mongoose.connect(process.env.MONGODB_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     // useCreateIndex: true,

@@ -2,7 +2,7 @@ import { Button, Card, CardActionArea, CardActions, CardContent, CardMedia,
   Typography,} from '@material-ui/core';
 import React from 'react';
 import NextLink from 'next/link';
-import { Rating } from '@mui/lab';
+import { Rating } from '@mui/material';
 
 export default function ProductItem({ product, addToCartHandler }) {
   return (
